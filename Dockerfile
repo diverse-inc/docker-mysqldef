@@ -1,6 +1,5 @@
 FROM alpine:3.8
 
-LABEL maintainer="Yoshihisa Takeda <yoshihisa.takeda@diverse-inc.com>"
 ENV VERSION '0.4.4'
 
 ADD https://github.com/k0kubun/sqldef/releases/download/v${VERSION}/mysqldef_linux_amd64.tar.gz /tmp/
